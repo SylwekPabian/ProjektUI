@@ -1,0 +1,840 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ngx-admin documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ngx-admin documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>SecurityCamerasComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/pages/dashboard/security-cameras/security-cameras.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnDestroy" target="_blank" >OnDestroy</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>ngx-security-cameras</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./security-cameras.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./security-cameras.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#alive">alive</a>
+                            </li>
+                            <li>
+                                <a href="#cameras">cameras</a>
+                            </li>
+                            <li>
+                                <a href="#isSingleView">isSingleView</a>
+                            </li>
+                            <li>
+                                <a href="#selectedCamera">selectedCamera</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnDestroy">ngOnDestroy</a>
+                            </li>
+                            <li>
+                                <a href="#selectCamera">selectCamera</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(service: <a href="../injectables/DataService.html">DataService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/pages/dashboard/security-cameras/security-cameras.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Konstruktor klasy SecurityCamerasComponent</p>
+</div>
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>service</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/DataService.html" target="_self" >DataService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnDestroy"></a>
+                    <span class="name">
+                        <b>
+                            ngOnDestroy
+                        </b>
+                        <a href="#ngOnDestroy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnDestroy()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="40"
+                            class="link-to-prism">src/app/pages/dashboard/security-cameras/security-cameras.component.ts:40</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectCamera"></a>
+                    <span class="name">
+                        <b>
+                            selectCamera
+                        </b>
+                        <a href="#selectCamera"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>selectCamera(camera: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="35"
+                            class="link-to-prism">src/app/pages/dashboard/security-cameras/security-cameras.component.ts:35</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Metoda wybierająca kamere</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>camera</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>kamera</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="alive"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            alive</b>
+                            <a href="#alive"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>true</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/pages/dashboard/security-cameras/security-cameras.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cameras"></a>
+                        <span class="name">
+                            <b>
+                            cameras</b>
+                            <a href="#cameras"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Camera.html" target="_self" >Camera[]</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/pages/dashboard/security-cameras/security-cameras.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isSingleView"></a>
+                        <span class="name">
+                            <b>
+                            isSingleView</b>
+                            <a href="#isSingleView"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/pages/dashboard/security-cameras/security-cameras.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectedCamera"></a>
+                        <span class="name">
+                            <b>
+                            selectedCamera</b>
+                            <a href="#selectedCamera"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Camera.html" target="_self" >Camera</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/pages/dashboard/security-cameras/security-cameras.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {Component, OnDestroy, OnInit} from &#x27;@angular/core&#x27;;
+import { takeWhile } from &#x27;rxjs/operators&#x27;;
+import { DataService } from &#x27;../../../service/data.service&#x27;;
+import { Camera } from &#x27;../../../@core/data/security-cameras&#x27;;
+
+@Component({
+  selector: &#x27;ngx-security-cameras&#x27;,
+  styleUrls: [&#x27;./security-cameras.component.scss&#x27;],
+  templateUrl: &#x27;./security-cameras.component.html&#x27;,
+})
+export class SecurityCamerasComponent implements OnDestroy {
+
+  private alive &#x3D; true;
+  cameras: Camera[];
+  selectedCamera: Camera;
+  isSingleView &#x3D; false;
+  
+  /**
+   * Konstruktor klasy SecurityCamerasComponent
+   * @param  {DataService} privateservice Dane z naszej bazy danych przekazane przez DataService
+   */
+  constructor(private service: DataService) {
+    this.service.getCamerasList()
+	.pipe(takeWhile(() &#x3D;&gt; this.alive))
+	.subscribe((cameras: Camera[]) &#x3D;&gt; {
+      this.cameras &#x3D; cameras[&#x27;cameras&#x27;];
+      this.selectedCamera &#x3D; this.cameras[0];
+    });
+  }
+  
+  /**
+   * Metoda wybierająca kamere
+   * @param  {any} camera kamera
+   */
+  selectCamera(camera: any) {
+    this.selectedCamera &#x3D; camera;
+    this.isSingleView &#x3D; true;
+  }
+
+  ngOnDestroy() {
+    this.alive &#x3D; false;
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;nb-card size&#x3D;&quot;xlarge&quot;&gt;
+  &lt;nb-card-header&gt;
+    &lt;div class&#x3D;&quot;cameras-card-header&quot;&gt;
+      &lt;span class&#x3D;&quot;cameras-card-title&quot;&gt;Security Cameras&lt;/span&gt;
+      &lt;span class&#x3D;&quot;cameras-filter&quot;&gt;
+        &lt;a [class.active]&#x3D;&quot;isSingleView&quot; (click)&#x3D;&quot;isSingleView &#x3D; true&quot;&gt;
+          &lt;i class&#x3D;&quot;nb-square&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;a [class.active]&#x3D;&quot;!isSingleView&quot; (click)&#x3D;&quot;isSingleView &#x3D; false&quot;&gt;
+          &lt;i class&#x3D;&quot;nb-grid-a&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/nb-card-header&gt;
+  &lt;nb-card-body&gt;
+    &lt;div class&#x3D;&quot;cameras single-view&quot; *ngIf&#x3D;&quot;isSingleView&quot;&gt;
+      &lt;div class&#x3D;&quot;camera&quot; [style.background-image]&#x3D;&quot;&#x27;url(&#x27; + selectedCamera.link + &#x27;)&#x27;&quot;&gt;
+        &lt;span&gt;{{ selectedCamera.name }}&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;cameras&quot; *ngIf&#x3D;&quot;!isSingleView&quot;&gt;
+      &lt;div class&#x3D;&quot;camera col-sm-6&quot; *ngFor&#x3D;&quot;let camera of cameras&quot; [style.background-image]&#x3D;&quot;&#x27;url(&#x27; + camera.link + &#x27;)&#x27;&quot;
+           (click)&#x3D;&quot;selectCamera(camera)&quot;&gt;
+        &lt;span&gt;{{ camera.name }}&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/nb-card-body&gt;
+  &lt;nb-card-footer&gt;
+    &lt;nb-actions size&#x3D;&quot;medium&quot; fullWidth&gt;
+      &lt;nb-action&gt;
+        &lt;i class&#x3D;&quot;nb-pause-outline&quot;&gt;&lt;/i&gt;&lt;span&gt;Pause&lt;/span&gt;
+      &lt;/nb-action&gt;
+      &lt;nb-action&gt;
+        &lt;i class&#x3D;&quot;nb-list&quot;&gt;&lt;/i&gt;&lt;span&gt;Logs&lt;/span&gt;
+      &lt;/nb-action&gt;
+      &lt;nb-action&gt;
+        &lt;i class&#x3D;&quot;nb-search&quot;&gt;&lt;/i&gt;&lt;span&gt;Search&lt;/span&gt;
+      &lt;/nb-action&gt;
+      &lt;nb-action&gt;
+        &lt;i class&#x3D;&quot;nb-gear&quot;&gt;&lt;/i&gt;&lt;span&gt;Setup&lt;/span&gt;
+      &lt;/nb-action&gt;
+    &lt;/nb-actions&gt;
+  &lt;/nb-card-footer&gt;
+&lt;/nb-card&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./security-cameras.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &#x27;../../../@theme/styles/themes&#x27;;
+@import &#x27;~@nebular/theme/styles/global/breakpoints&#x27;;
+@import &#x27;~bootstrap/scss/mixins/breakpoints&#x27;;
+
+@include nb-install-component() {
+  nb-card-header {
+    padding: 0;
+    border: none;
+  }
+
+  nb-card-body {
+    padding: 0;
+    position: relative;
+  }
+
+  nb-card-footer {
+    padding: 1rem 0;
+    border: none;
+  }
+
+  .cameras-card-header {
+    display: flex;
+
+    .cameras-card-title {
+      flex: 1;
+      padding: 1.25rem;
+    }
+  }
+
+  .cameras-filter {
+    display: flex;
+
+    a {
+      font-size: 2.5rem;
+      padding: 0 0.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: nb-theme(color-fg);
+    }
+
+    a:first-child {
+      @include nb-ltr(border-left, 1px solid nb-theme(separator));
+      @include nb-rtl(border-right, 1px solid nb-theme(separator));
+    }
+
+    a:last-child {
+      @include nb-ltr(border-top-right-radius, nb-theme(card-border-radius));
+      @include nb-rtl(border-top-left-radius, nb-theme(card-border-radius));
+    }
+
+    a.active {
+      background-color: nb-theme(color-bg-active);
+      color: nb-theme(color-fg-heading);
+      border: none;
+    }
+  }
+
+  .cameras {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+
+  .cameras.single-view {
+    .camera {
+      height: 100%;
+      width: 100%;
+
+      &amp;::before {
+        height: 100%;
+      }
+    }
+  }
+
+  .camera {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    padding: 0;
+
+    span {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      background: rgba(0, 0, 0, 0.4);
+      font-family: nb-theme(font-secondary);
+      font-weight: nb-theme(font-weight-bolder);
+      font-size: 1.25rem;
+      padding: 0.5rem 1rem;
+    }
+
+    &amp;::before {
+      background-color: rgba(255, 255, 255, 0.1);
+      content: &#x27;&#x27;;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+    }
+
+    &amp;:hover::before {
+      opacity: 0;
+    }
+  }
+
+  nb-action {
+    padding: 0 0.5rem 0 0;
+
+    i {
+      color: nb-theme(color-fg);
+      font-size: 3rem;
+      margin-right: 0.5rem;
+
+      @include nb-for-theme(corporate) {
+        color: nb-theme(actions-fg);
+      }
+    }
+
+    span {
+      font-family: nb-theme(font-secondary);
+      font-weight: nb-theme(font-weight-bold);
+      color: nb-theme(color-fg-heading);
+      text-transform: uppercase;
+    }
+  }
+
+  @include nb-for-theme(cosmic) {
+    .cameras-filter a.active {
+      color: nb-theme(color-fg-highlight);
+    }
+
+    .camera {
+      span {
+        background: rgba(88, 73, 184, 0.5);
+      }
+
+      &amp;::before {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    nb-action span {
+      font-weight: nb-theme(font-weight-bolder);
+    }
+  }
+
+  @include nb-for-theme(corporate) {
+    .cameras-filter a {
+      &amp;.active {
+        color: nb-theme(color-primary);
+      }
+
+      &amp;:first-child {
+        @include nb-ltr(border-left, 1px solid nb-theme(border-color));
+        @include nb-rtl(border-right, 1px solid nb-theme(border-color));
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    nb-action {
+      padding: 0;
+      i {
+        margin: 0;
+      }
+      span {
+        display: none;
+      }
+    }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><nb-card size="xlarge">  <nb-card-header>    <div class="cameras-card-header">      <span class="cameras-card-title">Security Cameras</span>      <span class="cameras-filter">        <a [class.active]="isSingleView" (click)="isSingleView = true">          <i class="nb-square"></i>        </a>        <a [class.active]="!isSingleView" (click)="isSingleView = false">          <i class="nb-grid-a"></i>        </a>      </span>    </div>  </nb-card-header>  <nb-card-body>    <div class="cameras single-view" *ngIf="isSingleView">      <div class="camera" [style.background-image]="\'url(\' + selectedCamera.link + \')\'">        <span>{{ selectedCamera.name }}</span>      </div>    </div>    <div class="cameras" *ngIf="!isSingleView">      <div class="camera col-sm-6" *ngFor="let camera of cameras" [style.background-image]="\'url(\' + camera.link + \')\'"           (click)="selectCamera(camera)">        <span>{{ camera.name }}</span>      </div>    </div>  </nb-card-body>  <nb-card-footer>    <nb-actions size="medium" fullWidth>      <nb-action>        <i class="nb-pause-outline"></i><span>Pause</span>      </nb-action>      <nb-action>        <i class="nb-list"></i><span>Logs</span>      </nb-action>      <nb-action>        <i class="nb-search"></i><span>Search</span>      </nb-action>      <nb-action>        <i class="nb-gear"></i><span>Setup</span>      </nb-action>    </nb-actions>  </nb-card-footer></nb-card></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'ngx-app'},{'name': 'DashboardComponent', 'selector': 'ngx-dashboard'},{'name': 'ElectricityChartComponent', 'selector': 'ngx-electricity-chart'},{'name': 'ElectricityComponent', 'selector': 'ngx-electricity'},{'name': 'FooterComponent', 'selector': 'ngx-footer'},{'name': 'HeaderComponent', 'selector': 'ngx-header'},{'name': 'LayoutDirectionSwitcherComponent', 'selector': 'ngx-layout-direction-switcher'},{'name': 'MiscellaneousComponent', 'selector': 'ngx-miscellaneous'},{'name': 'NotFoundComponent', 'selector': 'ngx-not-found'},{'name': 'OneColumnLayoutComponent', 'selector': 'ngx-one-column-layout'},{'name': 'PagesComponent', 'selector': 'ngx-pages'},{'name': 'RoomsComponent', 'selector': 'ngx-rooms'},{'name': 'RoomSelectorComponent', 'selector': 'ngx-room-selector'},{'name': 'SampleLayoutComponent', 'selector': 'ngx-sample-layout'},{'name': 'SearchInputComponent', 'selector': 'ngx-search-input'},{'name': 'SecurityCamerasComponent', 'selector': 'ngx-security-cameras'},{'name': 'SwitcherComponent', 'selector': 'ngx-switcher'},{'name': 'TemperatureComponent', 'selector': 'ngx-temperature'},{'name': 'TemperatureDraggerComponent', 'selector': 'ngx-temperature-dragger'},{'name': 'ThemeSettingsComponent', 'selector': 'ngx-theme-settings'},{'name': 'ThemeSwitcherComponent', 'selector': 'ngx-theme-switcher'},{'name': 'ThemeSwitcherListComponent', 'selector': 'ngx-theme-switcher-list'},{'name': 'ThreeColumnsLayoutComponent', 'selector': 'ngx-three-columns-layout'},{'name': 'TwoColumnsLayoutComponent', 'selector': 'ngx-two-columns-layout'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'SecurityCamerasComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'SecurityCamerasComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
